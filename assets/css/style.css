@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200..700&display=swap');
 
 /* Aterisk wildcard selector to override default styles added by the browser */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,7 +10,7 @@
 
 /* General styles */
 
-body{
+body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -20,22 +20,27 @@ body{
 }
 
 /* Header */
-header{
-    background-color: lightcoral;
+header {
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
 }
 
-h1{
+h1 {
     font-family: 'Oswald', sans-serif;
 }
 
 /* Main Content */
-main{
+main {
     background-color: lightblue;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
 }
 
 /* Footer */
-footer{
+footer {
     background-color: orange;
 }
