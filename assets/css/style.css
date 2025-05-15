@@ -135,17 +135,12 @@ main {
 }
 
 /* Why Running-b-physical & mental styles */
-#benefits-physical {
+#benefits-physical>div, #benefits-mental>div {
     line-height: 20px;
     margin-bottom: 20px;
 }
 
-#benefits-mental {
-    line-height: 20px;
-    margin-bottom: 20px;
-}
-
-#benefits-physical p, #benefits-mental p {
+#benefits p {
     padding: 0 20px;
 }
 
@@ -153,7 +148,6 @@ hr{
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
 }
-
 
 /* Footer */
 #social-networks {
