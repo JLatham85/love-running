@@ -56,6 +56,12 @@ h1 {
     border-bottom: 1px solid #3a3a3a;
 }
 
+/* Navbar styles with drop down toggle */
+
+nav {
+    position: absolute;
+}
+
 /* Main Content */
 main {
     background-color: lightblue;
