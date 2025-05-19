@@ -211,9 +211,13 @@ main {
 /* Sign up page */
 
 #signup {
+    background: url("assets\images\signup-image.webp") no-repeat center center / cover;
+    display: flex;
+    flex-wrap: wrap;
     background-size: cover;
     background-position: 75%;
     flex-grow: 1;
+    padding: 20px 10%;
 }
 
 /* Footer */
